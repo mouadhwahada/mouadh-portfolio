@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mouadh Wahada | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Software Engineer specializing in Spring Boot, Angular, FastAPI and DevOps." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">MW</div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#qualities">Qualities</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Software Engineer &middot; Fullstack</p>
+          <h1>Hi, I’m <span class="accent">Mouadh Wahada</span>.</h1>
+          <p class="subtitle">
+            I build modern web applications using <strong>Spring Boot</strong>, <strong>Angular</strong> and
+            <strong>FastAPI</strong>, with a strong focus on clean architecture, DevOps and automation.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View my projects</a>
+            <a href="#contact" class="btn secondary">Contact me</a>
+          </div>
+          <div class="hero-meta">
+            <span>📍 Tunis, Tunisia</span>
+            <span>🎓 Software Engineer</span>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <!-- Put your real image in assets/your-photo.jpg -->
+          <img src="assets/your-photo.jpg" alt="Photo of Mouadh Wahada" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a sociable and motivated Software Engineer who values human interactions and teamwork.
+          I enjoy challenges and always push myself to go beyond obstacles, continuously improving and
+          growing despite difficulties.
+        </p>
+        <p>
+          Versatile and adaptable, I possess a wide range of skills that allow me to contribute effectively
+          across different domains. I particularly enjoy problem-solving, building real-world applications,
+          and collaborating with others to deliver high-quality results.
+        </p>
+        <p>
+          Recently, I developed a full <strong>ERP web application</strong> as my engineering graduation project,
+          covering sales, purchases, license management and supplier relations using Spring Boot, Angular,
+          FastAPI and DevOps practices.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Technical Skills</h2>
+
+        <div class="skills-grid">
+
+          <div class="card">
+            <h3>Backend</h3>
+            <ul>
+              <li>Spring Boot</li>
+              <li>Quarkus</li>
+              <li>FastAPI (Python)</li>
+              <li>REST APIs &middot; JPA &middot; Security</li>
+              <li>MySQL &middot; PostgreSQL</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>Angular</li>
+              <li>HTML &middot; CSS &middot; Bootstrap</li>
+              <li>Responsive UI &middot; Angular Material</li>
+              <li>TypeScript &middot; RxJS</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>C# &middot; .NET</li>
+              <li>Java 17</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Tools & DevOps</h3>
+            <ul>
+              <li>Git &middot; GitHub &middot; GitHub Actions</li>
+              <li>Docker &middot; Docker Compose</li>
+              <li>Postman</li>
+              <li>CI/CD Pipelines</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+
+        <!-- ERP PROJECT -->
+        <div class="project-card">
+          <h3>INSOMEA ERP – Sales, Purchases & License Management</h3>
+          <p class="project-meta">Spring Boot &middot; Angular &middot; FastAPI &middot; Docker &middot; GitHub Actions</p>
+          <p>
+            End-to-end ERP web application developed as my engineering graduation project. The platform automates
+            sales, purchases, license renewals, customer relations, and supplier management with integrated DevOps workflows.
+          </p>
+          <ul>
+            <li>Developed secure REST APIs (JWT, email verification, password reset).</li>
+            <li>Built an Angular frontend with dashboards, workflows, and client portals.</li>
+            <li>Created a FastAPI microservice for supplier ranking and price estimation.</li>
+            <li>Implemented a monorepo CI pipeline with build, test, coverage, and Docker deployment.</li>
+          </ul>
+        </div>
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <h3>Vitanova – Fitness & Coaching Web Platform</h3>
+          <p class="project-meta">Spring Boot &middot; Angular &middot; MySQL</p>
+          <p>
+            A complete fitness web application designed to help users achieve their health goals through personalized training programs,
+            access to coaches, and product delivery services. Includes workout planning, coaching sessions, nutrition guidance,
+            and equipment ordering.
+          </p>
+          <ul>
+            <li>Implemented training plans, coach sessions, and user tracking.</li>
+            <li>Developed a modular backend with Spring Boot (REST + JPA).</li>
+            <li>Built responsive Angular interfaces with dynamic user dashboards.</li>
+          </ul>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+          <h3>Explorex – Travel Planning & Itinerary System</h3>
+          <p class="project-meta">Symfony &middot; MySQL</p>
+          <p>
+            Explorex is an innovative travel planning web application offering personalized itineraries, route search, plan selection, and online booking.
+            The platform focuses on user-friendly navigation and customized travel experiences.
+          </p>
+          <ul>
+            <li>Developed itinerary search and reservation management.</li>
+            <li>Implemented admin dashboards for plan and package management.</li>
+            <li>Designed database models and business workflows using Symfony.</li>
+          </ul>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+          <h3>BwsHistory – Spare Parts Tracking & After-Sales System</h3>
+          <p class="project-meta">Quarkus &middot; Angular &middot; MySQL &middot; Postman</p>
+          <p>
+            BwsHistory is a web-based system for managing spare parts, sales, repairs, interventions, and customer history using unique identification (CIN).
+            It provides dashboards, intervention tracking, and repair reports to improve transparency and customer satisfaction.
+          </p>
+          <ul>
+            <li>Created modules for sales, repairs, replacements, and client tracking.</li>
+            <li>Implemented notifications, intervention logs, and technician reports.</li>
+            <li>Used Quarkus to build a fast, lightweight microservice backend.</li>
+          </ul>
+        </div>
+
+        <!-- AUTH MODULE PROJECT -->
+        <div class="project-card">
+          <h3>Authentication & User Management Module</h3>
+          <p class="project-meta">Spring Boot &middot; Angular &middot; JWT &middot; Email (SMTP)</p>
+          <p>
+            Reusable authentication module with secure registration, login, and email-based verification.
+          </p>
+          <ul>
+            <li>JWT authentication with refresh tokens and role-based access.</li>
+            <li>Angular interceptors, guards, and role-based UI.</li>
+            <li>Email verification and password reset flows.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Software Engineer (PFE then Junior)</h3>
+            <p class="timeline-meta">INSOMEA &middot; Tunis &middot; 2024–2025</p>
+            <ul>
+              <li>Designed and implemented a full ERP solution (backend, frontend and microservice).</li>
+              <li>Worked closely with business stakeholders to translate requirements into technical features.</li>
+              <li>Introduced CI/CD workflows and containerization to improve deployment reliability.</li>
+            </ul>
+          </div>
+          <!-- You can add more experience blocks here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- QUALITIES -->
+    <section id="qualities" class="section">
+      <div class="container">
+        <h2>Personal Qualities</h2>
+
+        <div class="skills-grid">
+          <div class="card">
+            <ul>
+              <li><strong>Leadership</strong></li>
+              <li><strong>Communication &amp; Negotiation</strong></li>
+              <li><strong>Creativity</strong></li>
+              <li><strong>Emotional Intelligence</strong></li>
+              <li><strong>Stress Management</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h3>Engineering Degree in Computer Science</h3>
+            <p class="timeline-meta">ESPRIT – Private Higher School of Engineering and Technology &middot; 2022–Present</p>
+            <p>Specialized in Software Engineering with a strong focus on full-stack development and DevOps.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h3>Preparatory Cycle for Engineering Studies</h3>
+            <p class="timeline-meta">Faculty of Sciences of Sfax &middot; 2019–2022</p>
+            <p>Completed mathematics and physics-intensive preparatory coursework.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          I am open to opportunities as a <strong>Software Engineer / Fullstack Developer</strong>
+          (Spring Boot &middot; Angular &middot; Python) and to remote collaborations.
+        </p>
+        <div class="contact-grid">
+          <div>
+            <p><strong>Email:</strong> <a href="mailto:mouadhwahada3@gmail.com">mouadhwahada3@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mouadh-wahada-a2a785250/" target="_blank">linkedin.com/in/mouadh-wahada-a2a785250</a></p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/mouadhwahada" target="_blank">github.com/mouadhwahada</a></p>
+          </div>
+          <div>
+            <p>
+              If you think my profile matches your needs, feel free to reach out.
+              I would be happy to discuss your project or team and see how I can contribute.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mouadh Wahada &middot; Software Engineer</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
